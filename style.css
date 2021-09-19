@@ -1,0 +1,560 @@
+/*
+main color: #5fa366
+secondory color: #f58d34
+text: #aeaeae;
+*/
+h1,h2,h3,h4,h5,h6,p,div,a,span{
+    font-family: cairo;
+    text-align: right;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+section{
+    padding: 50px 0;
+}
+
+
+.main-color{
+    color: #5fa366;
+}
+.sec-color{
+    color: #f58d34;
+}
+.bold{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 30px 0;
+    color: #5fa366;
+    font-weight: bold;
+}
+
+
+.hero-bac{
+    background-image: url('bacs/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.hero-text{
+    padding-right: 100px;
+}
+.logo{
+    margin-bottom: 150px;
+    width: 180px;
+    padding: 10px;
+    float: right;
+}
+.section1 .bottom-text{
+    text-align: center;
+}
+
+.section1 h1{
+    padding: 5px 0;
+}
+.section1 .chess{
+    width: 70%;
+    margin-top: -200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.section2{
+    padding: 10px 0;
+}
+
+.title h2,.sub-title h3{
+    text-align: center !important;
+}
+.sub-title{
+    color: #aeaeae;
+}
+.section2 .row .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.section2 .title{
+    padding: 10px 0;
+}
+.section4{
+    padding: px 0;
+}
+.bac2{
+    background-image: url('bacs/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section6{
+    background-image: url('bacs/5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    .features-row img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+.section3 .features{
+    padding-right: 100px;
+}
+.features h3,.features ul li{
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.features h3,.features ul {
+    list-style: none;}
+
+
+.features ul li::before {
+    content: "\25CF";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #5fa366; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    /*margin-right: -1em; *//* Also needed for space (tweak if needed) */
+  }
+  .section3 .price-row{
+    padding: 30px 0;
+}
+.section3 .features-row{
+    align-items: center;
+}
+.section3 .features-row img{
+    width: 50%;
+}
+  .section3 .price-row h2{
+      text-align: center;
+  }
+  .price{
+      font-size: 2em;
+  }
+  .start-now{
+      background: #5fa366;
+      padding: 8px 40px;
+      color: #fff;
+      border-radius: 25px;
+      border: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      font-family: cairo;
+      font-size: 1.8em;
+  }
+  .start-now:hover{
+    background: #49854f;
+    padding: 5px 35px;
+  }
+
+
+
+  .section4 .icon,.section4 .text-icon{
+    display: inline-block;
+    vertical-align: top;
+}
+.section4 .icon i{
+    color: #5fa366;
+}
+.text-icon p{
+    margin: 0;
+}
+.section4 .scard{
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+}
+.section4 .row{
+    padding: 10px 300px;
+}
+.section4 .row .col-sm-6{
+    padding: 10px 0;
+}
+.section4 .row .col-sm-6 .scard{
+    padding: 10px 30px;
+    
+}
+.section4 .row .col-sm-6 .scard img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.align-items-center{
+    display: flex;
+    justify-content: center;
+}
+
+.section5 h2{
+    padding: 5px 0;
+}
+.section7 .title{
+    padding: 5px;
+}
+.section7 .sub-title{
+    padding: 5px;
+    color: #7a7a7a;
+}
+
+
+.logo-card img{
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.section6 .row {
+    padding: 10px 150px;
+}
+.section6 .col-sm-4{
+    padding: 10px 20px;
+}
+
+
+    
+.section7{
+    background: url('bac.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+.section7 h2{
+    margin-bottom: 30px;
+}
+.section7 .row {
+   align-items: center;
+}
+.section7 .row h5{
+    text-align: center;
+    color: #000;
+}
+.section7 .row .col-sm-4{
+    padding: 40px 0;
+}
+.section7 .row .col-sm-6 .shadow{
+    padding: 60px 20px 60px 20px;
+    background: #fff;
+    height: auto;
+
+
+}
+
+.section7 .row2{
+    padding: 5px 60px;
+}
+
+.shadow{
+    box-shadow: 7px 17px 34px -10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 7px 17px 34px -10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 7px 17px 34px -10px rgba(0,0,0,0.1);
+}
+.section7 .row .col-sm-6 div i{
+    color: #ddd;
+    font-size: 40px;
+}
+.section7 .row .col-sm-4 div img{
+    width: 100%;
+}
+.section7 .row .col-sm-4 .text{
+    padding: 60px;
+}
+.quote-bac{
+    background-image: url('quote.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.personl-img,.personl-info{
+    display: inline-block;
+}
+.personl-info{
+    vertical-align: middle;
+    
+}
+.personl-info p{
+    margin: 0;
+}
+.personl-img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+/*section - 7*/
+.section8 .title{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    color: #5fa366;
+}
+.section8 .readmore{
+    margin: 10px 0;
+    color: #5fa366;
+    text-decoration: none;
+}
+.section8{
+    padding: 100px 120px; 
+}
+
+.section8 p{
+    color: #808080;
+}
+.section8 a{
+    color: #000;
+    text-decoration: none;
+}
+.section8{
+    background-image: url('bacs/8.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;}
+   
+
+
+.blog-img{
+    height: 300px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+.blog-info{
+    padding: 30px 0;
+}
+.blog-info a{
+    font-weight: bold;
+}
+.blog-info a:hover{
+    color: #5fa366;
+}
+.section-title{
+    padding: 30px 0 70px 0;
+}
+.section-title h2{
+    font-weight: bold;
+}
+.space-80{
+    height: 80px;
+}
+
+
+.section9 h3{
+    color:#7a7a7a;
+    padding: 0;
+}
+.section9 .title{
+    padding: 15px 0;
+}
+.section10{
+    background-image: url('bacs/4.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.socil-icons i {
+    font-size: 20px;
+    padding: 10px 0 10px 50px;
+    color: #5fa366;
+}
+.section10 .row{
+    padding: 0 7.5%;
+}
+.section10 p{
+    color: #808080;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero-text {
+        padding: 15px;
+    }
+    .hero-text h1 {
+        text-align: center;
+    }
+    .section1 .bottom-text{
+        margin-top: 100px;
+    }
+    .video{
+        margin: 30px;
+    }
+    section{
+        padding: 10px 20px;
+    }
+    .space-80{
+        height: 0px;
+    }
+    .section3 .features {
+        padding-right: 20px;
+    }
+    .section4 .row {
+        padding: 10px 0 0 0; 
+    }
+    .section6 .row{
+        padding: 10px 0 0 0; 
+
+    }
+    .section7,.section8{
+        padding: 20px 30px;
+    }
+    .section8 .section-title p,.section8 .section-title h2 {
+        text-align: center;
+    }
+    .section7 .section-title p,.section7 .section-title h2 {
+        text-align: center;
+    }
+    .section-title {
+        padding: 20px;
+    }
+    .section7 .row .col-sm-6 .shadow {
+        margin-bottom: 15px;
+    }
+    .socil-icons i {
+        font-size: 20px;
+        padding: 10px 15px 10px 15px;
+        color: #5fa366;
+        text-align: center;
+    }
+    .socil-icons {
+        text-align: center;
+    }
+    .section10 p{
+        text-align: center;
+    }
+    .section3 .features-row img {
+        width: 80%;
+    }
+   
+    .section1 .row1{
+        flex-direction: column-reverse;
+    }
+  
+    .section1 .chess {
+        width: 100%;
+        margin-top: 0;
+    }
+    .logo{
+        margin-bottom: 70px;
+        padding: 2px;
+    }
+    .section7 .row2{
+        padding: 2px;
+    }
+    .section8{
+        background:none;
+    }
+    .section7{
+        background:none;
+    }   
+}
+
+@media screen and (min-width: 1500px) {
+    .features h3, .features ul li {
+        color: #7a7a7a;
+        font-size: 30px;
+    }
+    .section3 .features {
+        padding-right: 150px;
+    }
+    .start-now{
+        font-size: 2.2em;
+    }
+    .hero-text h1{
+        font-size: 3em;
+    }
+    .section1 .bottom-text{
+        margin-top: -5%;
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+    .features h3, .features ul li {
+        font-size: 40px;
+    }
+    .section3 .features {
+        padding-right: 200px;
+    }
+    .hero-text h1{
+        font-size: 4em;
+    }
+
+}
+@media (max-width:1100px) and (min-width:600px) {
+    .section4 .row {
+        padding: 20px;
+    }
+    .section6 .row {
+        padding: 10px;
+    }
+
+    .section7 .col-sm-8  {
+        padding: 5px;
+        display: block;
+        min-width: 100%;
+    }
+    .section7 .col-sm-4  {
+        padding: 5px;
+        display: block;
+        min-width: 100%;
+    }
+    .section7 .row2 {
+        padding: 5px;
+    }
+    .section7{
+        padding: 20px;
+    }
+    .section7 .section-title{
+        padding: 20px;
+    }
+    .section7 .section-title p, .section7 .section-title h2{
+
+    text-align: center ;
+    }
+    .section8 {
+        padding: 10px;
+    }
+    .blog-img {
+        height: 200px;
+    }
+    .section8 {
+        background: none;
+
+    }
+    .socil-icons i {
+        padding: 10px 0 10px 30px;
+    }
+    .section3 .features {
+        padding-right: 30px;
+    }
+    .section2 .row .video {
+        height: 400px;
+    }
+    .hero-text h1{
+        font-size:1.5em;
+    }
+    .logo {
+        margin-bottom: 70px;
+    }}
+    
+
